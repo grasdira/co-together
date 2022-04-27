@@ -3,10 +3,10 @@ import React from "react";
 // todo 1. 自動儲存 2. ??改成下拉選單 3. 儲存資料庫
 function Setting() {
   return (
-    <div className="w-2/5 mx-auto mt-16">
+    <div className="lg:w-2/5 md:w-4/5 sm:w-full mx-auto mt-16">
       <form action="#" method="POST">
         <div className="shadow overflow-hidden sm:rounded-md">
-          <div className="px-4 py-5 bg-white sm:p-6">
+          <div className="px-4 py-5 bg-white sm:p-16">
             <div className="grid grid-cols-12">
               <div className="col-span-12 mb-10">
                 <label
